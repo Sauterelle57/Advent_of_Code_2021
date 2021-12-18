@@ -13,7 +13,6 @@ with open("/home/Marie/Advent_of_Code_2021/input.txt", "r") as file:
     data3 = int(file.readline())
     somme = data1 + data2 + data3
     while data3 != "":
-        print("s:", somme, "S:", data1 + data2 + data3)
         if somme < data1 + data2 + data3:
             increase += 1
         somme = data1 + data2 + data3
