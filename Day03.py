@@ -8,7 +8,7 @@
 nb_col = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
 gamma_rate = "0b"
 epsilon_rate = "0b"
-jgi
+
 with open("/home/Marie/Advent_of_Code_2021/input_day03.txt", "r") as file:
     binary = file.readline()
     while binary != "":
